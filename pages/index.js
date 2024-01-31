@@ -15,11 +15,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-    {/* <Nav>This is the nav in app SelfDesign</Nav> */}
+    <Nav>brand /season / year</Nav>
       <main className={styles.main}>
-        <h1>Self Desin Page</h1>
+        <h1>Self Desing Page</h1>
       </main>
-    {/* <Footer></Footer> */}
+    <Footer></Footer>
 
     </div>
   )
