@@ -16,8 +16,6 @@ const nextConfig = {
         },
         filename: 'static/chunks/remoteEntry.js',
         exposes:{
-          './catalog': "./components/Catalog.js",
-          './remote': './pages/SelfDesignPage.js',
           './selfdesign': './pages/index.js'
         },
         extraOptions: {

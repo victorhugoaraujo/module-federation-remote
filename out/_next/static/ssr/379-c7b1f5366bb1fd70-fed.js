@@ -1,5 +1,5 @@
-exports.id = 882;
-exports.ids = [882,318];
+exports.id = 379;
+exports.ids = [379];
 exports.modules = {
 
 /***/ 495:
@@ -170,20 +170,38 @@ module.exports = {
 
 /***/ }),
 
-/***/ 318:
+/***/ 379:
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+// ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "Catalog": function() { return /* binding */ Catalog; }
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(878);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(497);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(868);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
+
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, {
+  "default": function() { return /* binding */ catalog_Catalog; }
+});
+
+// EXTERNAL MODULE: external "react/jsx-runtime"
+var jsx_runtime_ = __webpack_require__(878);
+// EXTERNAL MODULE: external "next/head"
+var head_ = __webpack_require__(839);
+var head_default = /*#__PURE__*/__webpack_require__.n(head_);
+// EXTERNAL MODULE: ./node_modules/next/image.js
+var next_image = __webpack_require__(675);
+// EXTERNAL MODULE: ./styles/Home.module.css
+var Home_module = __webpack_require__(399);
+var Home_module_default = /*#__PURE__*/__webpack_require__.n(Home_module);
+// EXTERNAL MODULE: consume shared module (default) next/dynamic@* (singleton)
+var dynamic_singleton_ = __webpack_require__(479);
+var dynamic_singleton_default = /*#__PURE__*/__webpack_require__.n(dynamic_singleton_);
+// EXTERNAL MODULE: external "react"
+var external_react_ = __webpack_require__(497);
+var external_react_default = /*#__PURE__*/__webpack_require__.n(external_react_);
+// EXTERNAL MODULE: consume shared module (default) next/link@* (singleton)
+var link_singleton_ = __webpack_require__(868);
+var link_singleton_default = /*#__PURE__*/__webpack_require__.n(link_singleton_);
+;// CONCATENATED MODULE: ./components/Catalog.js
 
 
 
@@ -195,7 +213,7 @@ const cardStyle = {
     alignItems: "center"
 };
 const Catalog = ()=>{
-    const [list, setList] = react__WEBPACK_IMPORTED_MODULE_1___default().useState([]);
+    const [list, setList] = external_react_default().useState([]);
     const fetchData = async ()=>{
         try {
             const response = await fetch("https://jsonplaceholder.typicode.com/photos");
@@ -205,16 +223,16 @@ const Catalog = ()=>{
             console.error(err);
         }
     };
-    react__WEBPACK_IMPORTED_MODULE_1___default().useEffect(()=>{
+    external_react_default().useEffect(()=>{
         fetchData();
     }, []);
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
         children: [
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_link__WEBPACK_IMPORTED_MODULE_2___default()), {
+            /*#__PURE__*/ jsx_runtime_.jsx((link_singleton_default()), {
                 href: "/",
                 children: "Go Back to main"
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
                 style: {
                     display: "flex",
                     width: "750px",
@@ -223,13 +241,13 @@ const Catalog = ()=>{
                     marginTop: "25px"
                 },
                 children: list.map((d)=>{
-                    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
+                    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
                         style: cardStyle,
                         children: [
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
                                 children: d.title
                             }),
-                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("img", {
+                            /*#__PURE__*/ jsx_runtime_.jsx("img", {
                                 width: 200,
                                 src: d.url
                             })
@@ -240,30 +258,9 @@ const Catalog = ()=>{
         ]
     });
 };
-/* harmony default export */ __webpack_exports__["default"] = (Catalog);
+/* harmony default export */ var components_Catalog = (Catalog);
 
-
-/***/ }),
-
-/***/ 12:
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": function() { return /* binding */ Catalog; }
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(878);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(839);
-/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(675);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(399);
-/* harmony import */ var _styles_Home_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(479);
-/* harmony import */ var next_dynamic__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dynamic__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _components_Catalog__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(318);
+;// CONCATENATED MODULE: ./pages/catalog.js
 
 __webpack_require__(473);
 
@@ -271,56 +268,56 @@ __webpack_require__(473);
 
 
 
-const Nav = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(()=>__webpack_require__.e(/* import() */ 906).then(__webpack_require__.t.bind(__webpack_require__, 906, 23)), {
+const Nav = dynamic_singleton_default()(()=>__webpack_require__.e(/* import() */ 906).then(__webpack_require__.t.bind(__webpack_require__, 906, 23)), {
     loadableGenerated: {
         modules: [
             "catalog.js -> " + "main/nav"
         ]
     }
 });
-const Footer = next_dynamic__WEBPACK_IMPORTED_MODULE_3___default()(()=>__webpack_require__.e(/* import() */ 167).then(__webpack_require__.t.bind(__webpack_require__, 167, 23)), {
+const Footer = dynamic_singleton_default()(()=>__webpack_require__.e(/* import() */ 167).then(__webpack_require__.t.bind(__webpack_require__, 167, 23)), {
     loadableGenerated: {
         modules: [
             "catalog.js -> " + "main/footer"
         ]
     }
 });
-function Catalog() {
-    return /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_5___default().container),
+function catalog_Catalog() {
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: (Home_module_default()).container,
         children: [
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)((next_head__WEBPACK_IMPORTED_MODULE_1___default()), {
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)((head_default()), {
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("title", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("title", {
                         children: "Create Next App"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("meta", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("meta", {
                         name: "description",
                         content: "Generated by create next app"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("link", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("link", {
                         rel: "icon",
                         href: "/favicon.ico"
                     })
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Nav, {
+            /*#__PURE__*/ jsx_runtime_.jsx(Nav, {
                 children: "This is the nav in app 2"
             }),
-            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("main", {
-                className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_5___default().main),
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
+                className: (Home_module_default()).main,
                 children: [
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h1", {
-                        className: (_styles_Home_module_css__WEBPACK_IMPORTED_MODULE_5___default().title),
+                    /*#__PURE__*/ jsx_runtime_.jsx("h1", {
+                        className: (Home_module_default()).title,
                         children: "this is the catalog page"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
+                    /*#__PURE__*/ jsx_runtime_.jsx("h2", {
                         children: "They more changes"
                     }),
-                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_components_Catalog__WEBPACK_IMPORTED_MODULE_4__["default"], {})
+                    /*#__PURE__*/ jsx_runtime_.jsx(components_Catalog, {})
                 ]
             }),
-            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(Footer, {})
+            /*#__PURE__*/ jsx_runtime_.jsx(Footer, {})
         ]
     });
 }

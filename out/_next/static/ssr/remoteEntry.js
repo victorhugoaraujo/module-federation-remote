@@ -2,16 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 786:
+/***/ 75:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 var moduleMap = {
-	"./catalog": function() {
-		return __webpack_require__.e(318).then(function() { return function() { return (__webpack_require__(318)); }; });
-	},
-	"./remote": function() {
-		return __webpack_require__.e(355).then(function() { return function() { return (__webpack_require__(355)); }; });
-	},
 	"./selfdesign": function() {
 		return __webpack_require__.e(149).then(function() { return function() { return (__webpack_require__(149)); }; });
 	},
@@ -22,7 +16,7 @@ var moduleMap = {
 		return __webpack_require__.e(827).then(function() { return function() { return (__webpack_require__(827)); }; });
 	},
 	"./pages/catalog": function() {
-		return __webpack_require__.e(882).then(function() { return function() { return (__webpack_require__(12)); }; });
+		return __webpack_require__.e(379).then(function() { return function() { return (__webpack_require__(379)); }; });
 	},
 	"./pages/index": function() {
 		return __webpack_require__.e(149).then(function() { return function() { return (__webpack_require__(149)); }; });
@@ -322,7 +316,7 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "-" + {"149":"7a35af1395eddc34","167":"a0c405bf309f6249","318":"e92bf503f7401ce9","355":"e3bebcd114b58ebc","557":"790b38ca3ef8f66d","710":"b052deb344f34c61","827":"d9d57e899b523872","882":"87e6741d02a19942","906":"65a33858f047f75f"}[chunkId] + "-fed.js";
+/******/ 			return "" + chunkId + "-" + {"149":"7a35af1395eddc34","167":"a0c405bf309f6249","379":"c7b1f5366bb1fd70","557":"790b38ca3ef8f66d","710":"b052deb344f34c61","827":"d9d57e899b523872","906":"65a33858f047f75f"}[chunkId] + "-fed.js";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -638,9 +632,9 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 		});
 /******/ 		var installedModules = {};
 /******/ 		var moduleToHandlerMapping = {
-/******/ 			868: function() { return loadSingleton("default", "next/link"); },
 /******/ 			108: function() { return loadSingleton("default", "next/script"); },
-/******/ 			479: function() { return loadSingleton("default", "next/dynamic"); }
+/******/ 			479: function() { return loadSingleton("default", "next/dynamic"); },
+/******/ 			868: function() { return loadSingleton("default", "next/link"); }
 /******/ 		};
 /******/ 		// no consumes in initial chunks
 /******/ 		var chunkMapping = {
@@ -649,20 +643,12 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 				479,
 /******/ 				868
 /******/ 			],
-/******/ 			"318": [
-/******/ 				868
-/******/ 			],
-/******/ 			"355": [
+/******/ 			"379": [
 /******/ 				108,
 /******/ 				479,
 /******/ 				868
 /******/ 			],
 /******/ 			"557": [
-/******/ 				108,
-/******/ 				479,
-/******/ 				868
-/******/ 			],
-/******/ 			"882": [
 /******/ 				108,
 /******/ 				479,
 /******/ 				868
@@ -884,7 +870,7 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(786);
+/******/ 	var __webpack_exports__ = __webpack_require__(75);
 /******/ 	module.exports.selfdesign = __webpack_exports__;
 /******/ 	
 /******/ })()
