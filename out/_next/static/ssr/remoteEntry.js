@@ -2,7 +2,7 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ 75:
+/***/ 366:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 var moduleMap = {
@@ -20,9 +20,6 @@ var moduleMap = {
 	},
 	"./pages/index": function() {
 		return __webpack_require__.e(149).then(function() { return function() { return (__webpack_require__(149)); }; });
-	},
-	"./pages/selfDesignPage": function() {
-		return __webpack_require__.e(557).then(function() { return function() { return (__webpack_require__(557)); }; });
 	}
 };
 var get = function(module, getScope) {
@@ -316,7 +313,7 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = function(chunkId) {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "-" + {"149":"7a35af1395eddc34","167":"a0c405bf309f6249","379":"c7b1f5366bb1fd70","557":"790b38ca3ef8f66d","710":"b052deb344f34c61","827":"d9d57e899b523872","906":"65a33858f047f75f"}[chunkId] + "-fed.js";
+/******/ 			return "" + chunkId + "-" + {"149":"7a35af1395eddc34","167":"a0c405bf309f6249","379":"c7b1f5366bb1fd70","710":"b052deb344f34c61","827":"d9d57e899b523872","906":"65a33858f047f75f"}[chunkId] + "-fed.js";
 /******/ 		};
 /******/ 	}();
 /******/ 	
@@ -647,11 +644,6 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 				108,
 /******/ 				479,
 /******/ 				868
-/******/ 			],
-/******/ 			"557": [
-/******/ 				108,
-/******/ 				479,
-/******/ 				868
 /******/ 			]
 /******/ 		};
 /******/ 		__webpack_require__.f.consumes = function(chunkId, promises) {
@@ -870,7 +862,7 @@ module.exports = new Promise(function (resolve, reject) {
 /******/ 	// module cache are used so entry inlining is disabled
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
-/******/ 	var __webpack_exports__ = __webpack_require__(75);
+/******/ 	var __webpack_exports__ = __webpack_require__(366);
 /******/ 	module.exports.selfdesign = __webpack_exports__;
 /******/ 	
 /******/ })()
