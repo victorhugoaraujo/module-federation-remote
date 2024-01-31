@@ -17,7 +17,7 @@ export default function Home() {
 
     <Nav>This is the nav in app SelfDesign</Nav>
       <main className={styles.main}>
-        <h1>Self Desin Page</h1>
+        <h1>Self Desin Page test</h1>
       </main>
     <Footer></Footer>
 
